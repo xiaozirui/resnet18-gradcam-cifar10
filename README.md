@@ -6,7 +6,7 @@ PyTorch ResNet-18 implementation with Grad-CAM visualization on CIFAR-10
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-EE4C2C?style=flat&logo=pytorch)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
-本仓库提供了一个基于 **PyTorch 从零（From Scratch）** 的 ResNet-18 图像分类网络实现，并在 **CIFAR-10** 数据集上完成了训练。项目包含完整的模块化代码结构、训练/验证可视化曲线，以及基于 **Grad-CAM** 的可解释性注意力热力图分析。
+本仓库提供了一个基于 **PyTorch 从零手写（From Scratch）** 的 ResNet-18 图像分类网络实现，并在 **CIFAR-10** 数据集上完成了训练。项目包含完整的模块化代码结构、训练/验证可视化曲线，以及基于 **Grad-CAM** 的可解释性注意力热力图分析。
 
 ---
 
