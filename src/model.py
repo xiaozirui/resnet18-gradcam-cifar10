@@ -80,8 +80,7 @@ class ResNet18(nn.Module):
 
         
 if __name__ == "__main__":
-    # 测试 ResNet18 输入输出 Shape
     model = ResNet18(num_classes=10)
     x = torch.randn(2, 3, 32, 32)
     out = model(x)
-    print("ResNet-18 输出尺寸:", out.shape) # 预期输出: torch.Size([2, 10])
+    print("ResNet-18 output shape:", out.shape)
