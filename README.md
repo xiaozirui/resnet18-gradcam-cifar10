@@ -43,6 +43,7 @@ resnet18-gradcam-cifar10/
 ├── requirements.txt      # 项目环境依赖包
 ├── LICENSE               # MIT 开源协议
 └── README.md             # 项目说明文档
+```
 
 ## 📐 模型架构与设计细节 (Architecture & Design)
 
@@ -65,7 +66,7 @@ resnet18-gradcam-cifar10/
 
 ```bash
 # 克隆仓库
-git clone [https://github.com/xiaozirui/resnet18-gradcam-cifar10.git](https://github.com/xiaozirui/resnet18-gradcam-cifar10.git)
+git clone https://github.com/xiaozirui/resnet18-gradcam-cifar10.git
 cd resnet18-gradcam-cifar10
 
 # 安装依赖
