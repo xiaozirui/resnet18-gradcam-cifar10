@@ -21,18 +21,21 @@ PyTorch ResNet-18 implementation with Grad-CAM visualization on CIFAR-10
 
 ## 🛠️ 项目目录结构 (Project Structure)
 
-```text
 resnet18-gradcam-cifar10/
+├── checkpoints/          # 模型权重保存目录 (*.pth)
+├── data/                 # CIFAR-10 数据集下载与存储目录
+├── outputs/              # 训练曲线图 (loss_acc.png) 与 Grad-CAM 热力图输出目录
 ├── src/
 │   ├── model.py          # ResNet-18 模型搭建与单元测试
-│   ├── dataset.py        # CIFAR-10 数据加载与数据增强 (Day 2)
+│   ├── dataset.py        # CIFAR-10 数据加载与数据增强
 │   ├── utils.py          # 训练指标统计与绘图工具 (Day 2)
 │   └── gradcam.py        # Grad-CAM 热力图提取算法 (Day 3)
 ├── train.py              # 模型训练与验证主入口 (Day 2)
 ├── visualize.py          # Grad-CAM 热力图可视化脚本 (Day 3)
+├── .gitignore            # Git 忽略文件配置
 ├── requirements.txt      # 项目依赖包
+├── LICENSE               # MIT 开源协议
 └── README.md             # 项目说明文档
-```
 
 ---
 

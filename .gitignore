@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# 本项目自定义忽略规则 (resnet18-gradcam-cifar10)
+# ==========================================
+
+# 忽略数据集目录
+data/
+
+# 忽略模型权重文件
+checkpoints/
+*.pth
+*.pt
+
+# 忽略临时输出目录（训练日志、缓存等）
+outputs/
+
+.vscode/
