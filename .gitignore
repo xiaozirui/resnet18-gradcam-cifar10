@@ -228,7 +228,5 @@ checkpoints/
 *.pth
 *.pt
 
-# 忽略临时输出目录（训练日志、缓存等）
-outputs/
 
 .vscode/
