@@ -68,7 +68,7 @@ def validate(model, dataloader, criterion, device):
 
 def main():
     BATCH_SIZE = 128
-    EPOCHS = 20  
+    EPOCHS = 70
     LEARNING_RATE = 0.1
     CHECKPOINT_DIR = './checkpoints'
     OUTPUT_DIR = './outputs'
